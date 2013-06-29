@@ -89,7 +89,7 @@ static PyMethodDef point_in_polyMethods[] = {
 
 /* ==== Initialize the C_test functions ====================== */
 PyMODINIT_FUNC
-initpoly_point_in_poly(void)  {
+initpoint_in_poly(void)  {
     PyObject *m;
     m = Py_InitModule("point_in_poly", point_in_polyMethods);
     import_array();  /* Must be present for NumPy.  Called first after above line.*/
