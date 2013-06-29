@@ -18,3 +18,5 @@ To install call
 python setup.py build
 
 sudo python setup.py install
+
+You may have to adjust the "include" paths in the setup.py file 
