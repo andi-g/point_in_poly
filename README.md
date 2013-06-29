@@ -6,7 +6,7 @@ ABOUT
 ===
 Author: Andreas Gros, andigros72@gmail.com
 
-This python package uses C code to faster determine whether a point is contained in a polygon in python
+This python package uses C code to faster determine whether a point is contained in a polygon.
 
 
 INSTALL
