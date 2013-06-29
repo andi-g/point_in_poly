@@ -78,7 +78,7 @@ _point_in_poly(PyObject *self, PyObject *args)
 
     inside = in_poly(x, y, polyin);
 
-    return Py_BuildValue("i", in_poly);
+    return Py_BuildValue("i", inside);
 }
 
 /* ==== Set up the methods table ====================== */
