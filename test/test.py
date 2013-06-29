@@ -14,4 +14,4 @@ print 'inside:', poly.point_in_poly(x, y, arr) == 1
 
 x = 5
 y = 3
-print 'inside:', poly.point_in_poly(x, y, arr) == 1
+print 'outside:', poly.point_in_poly(x, y, arr) != 1
